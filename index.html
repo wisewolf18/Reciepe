@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Pasta Cosi Restaurant</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+
+    <link href="assets/img/favicon.ico" rel="icon" />
+    <link href="assets/img/apple-touch-icon.ico" rel="apple-touch-icon" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css"
+    />
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <section
+      id="topbar"
+      class="d-flex align-items-center fixed-top topbar-transparent"
+    >
+    </section>
+    <header
+      id="header"
+      class="fixed-top d-flex align-items-center header-transparent"
+    >
+      <div
+        class="container-fluid container-xl d-flex align-items-center justify-content-between"
+      >
+        <div class="logo me-auto">
+          <h1><a href="index.html">foodiegoodie</a></h1>
+        </div>
+
+        <nav id="navbar" class="navbar order-last order-lg-0">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
+            <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+      </div>
+    </header>
+    <section id="hero">
+      <div class="hero-container max-width-container">
+        <div
+          id="heroCarousel"
+          data-bs-interval="5000"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+          <div class="carousel-inner" role="listbox">
+            <div
+              class="carousel-item active"
+              style="background-image: url(https://images.unsplash.com/photo-1621705585968-22b488d03524?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGZvb2RpZWdvb2RpZSUyMHJlc3R1YXJhbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60)"
+            >
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2 class="animate__animated animate__fadeInDown">
+                    <span>foodiegoodie</span> Restaurant
+                  </h2>
+                  <p class="animate__animated animate__fadeInUp">
+                    Home Of The Best <strong> Italian </strong>foodiegoodie.
+                  </p>
+                  <div>
+                    <a
+                      href="#menu"
+                      class="btn-menu animate__animated animate__fadeInUp scrollto"
+                      >Our Menu</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div
+              class="carousel-item"
+              style="background-image: url(assets/img/slide/slide-2.jpg)"
+            >
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2 class="animate__animated animate__fadeInDown">
+                    Our Spirit<span> !</span>
+                  </h2>
+                  <p class="animate__animated animate__fadeInUp">
+                    Break from the ordinary and escape to
+                    <strong>foodiegoodie</strong>, your personal slice of
+                    paradise! <strong>foodiegoodie</strong> is open seven days a
+                    week, for in- person service as well as takeout and
+                    delivery.
+                  </p>
+                  <div>
+                    <a
+                      href="#menu"
+                      class="btn-menu animate__animated animate__fadeInUp scrollto"
+                      >Our Menu</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div
+              class="carousel-item"
+              style="background-image: url(assets/img/slide/slide-3.jpg)"
+            >
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2 class="animate__animated animate__fadeInDown">
+                    Specialty <span>!</span>
+                  </h2>
+                  <p class="animate__animated animate__fadeInUp">
+                    Find The Perfect Pasta Recipe.
+                  </p>
+                  <div>
+                    <a
+                      href="#menu"
+                      class="btn-menu animate__animated animate__fadeInUp scrollto"
+                      >Our Menu</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a
+            class="carousel-control-prev"
+            href="#heroCarousel"
+            role="button"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon bi bi-chevron-left"
+              aria-hidden="true"
+            ></span>
+          </a>
+
+          <a
+            class="carousel-control-next"
+            href="#heroCarousel"
+            role="button"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon bi bi-chevron-right"
+              aria-hidden="true"
+            ></span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+      <section id="menu" class="menu section-bg">
+        <div class="container max-width-container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Menu</h2>
+            <p>Check Out the Menu</p>
+          </div>
+
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="menu-flters">
+                <li data-filter="*" class="filter-active">All</li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="row menu-container"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="col-lg-6 menu-item filter-drinks">
+              <img
+                src="assets/img/menu/schweppes-tonic.jpg"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-item-details">
+                <div class="menu-content">
+                  <a href="#"> Schweppes Tonic</a><span>50 rs</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-specialty">
+              <img
+                src="assets/img/menu/cleopatra.jfif"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-item-details">
+                <div class="menu-content">
+                  <a href="#">Cleopatra</a><span>320 rs</span>
+                </div>
+                <div class="menu-ingredients">
+                  Fillet Of Sea Bream On A Bed Of Prawns, Shrimps, Mushrooms,
+                  Basil Leaves, Zucchinis
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-drinks">
+              <img src="assets/img/menu/juice.jpeg" class="menu-img" alt="" />
+              <div class="menu-item-details">
+                <div class="menu-content">
+                  <a href="#">Fresh Orange Juice</a><span>70 rs</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-salads">
+              <img src="assets/img/menu/caesar.jpg" class="menu-img" alt="" />
+              <div class="menu-item-details">
+                <div class="menu-content">
+                  <a href="#">Caesar Salad</a>
+                  <span>240 rs</span>
+                </div>
+                <div class="menu-ingredients">
+                  Heart of Lettuce, Cherry Tomatoes, Grilled Chicken, Parmesan.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-specialty">
+              <img src="assets/img/menu/beffy.jpg" class="menu-img" alt="" />
+              <div class="menu-item-details">
+                <div class="menu-content">
+                  <a href="#">Beffy</a><span>240 rs</span>
+                </div>
+                <div class="menu-ingredients">
+                  Tomato Sauce, Ground Meat, Garlic, Chili Flakes, Parsley.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-drinks">
+              <img src="assets/img/menu/mojito.jpg" class="menu-img" alt="" />
+              <div class="menu-item-details">
+                <div class="menu-content">
+                  <a href="#">Mojito</a><span>80 rs</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-salads">
+              <img
+                src="assets/img/menu/nut-salad.jpg"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-item-details">
+                <div class="menu-content">
+                  <a href="#">Nut Salad</a><span>250 rs</span>
+                </div>
+                <div class="menu-ingredients">
+                  Lettuce, Arugula, Cherry Tomatoes, Grilled Chicken, Goat
+                  Cheese, Nut sauce, Balsamic.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-salads">
+              <img
+                src="assets/img/menu/burrata-salad.jpg"
+                class="menu-img"
+                alt=""
+              />
+              <div class="menu-item-details">
+                <div class="menu-content">
+                  <a href="#">Burrata Salad</a><span>240 rs</span>
+                </div>
+                <div class="menu-ingredients">
+                  Burrata, Arugula, Cherry Tomatoes, Balsamic Vinegar, Virgin
+                  Olive Oil, Dried Tomatoes
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-specialty">
+              <img src="assets/img/menu/juicy.jpg" class="menu-img" alt="" />
+              <div class="menu-item-details">
+                <div class="menu-content">
+                  <a href="#">Juicy</a><span>280 rs</span>
+                </div>
+                <div class="menu-ingredients">
+                  Minced Meat, Fresh Tomato Sauce, Fresh Paris Marvel, Gratine
+                  With Grilled Cheese.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-specialty">
+              <img src="assets/img/menu/juicy.jpg" class="menu-img" alt="" />
+              <div class="menu-item-details">
+                <div class="menu-content">
+                  <a href="#">Juicy</a><span>280 rs</span>
+                </div>
+                <div class="menu-ingredients">
+                  Minced Meat, Fresh Tomato Sauce, Fresh Paris Marvel, Gratine
+                  With Grilled Cheese.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="gallery" class="gallery">
+        <div class="container-fluid max-width-container">
+          <div class="section-title">
+            <h2>Some photos from <span>Our Restaurant</span></h2>
+          </div>
+          <div class="row g-2">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-1.jpg">
+                  <img
+                    src="assets/img/gallery/gallery-1.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-2.jpg">
+                  <img
+                    src="assets/img/gallery/gallery-2.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-3.jpg">
+                  <img
+                    src="assets/img/gallery/gallery-3.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-4.jpg">
+                  <img
+                    src="assets/img/gallery/gallery-4.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-5.jpg">
+                  <img
+                    src="assets/img/gallery/gallery-5.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-6.jpg">
+                  <img
+                    src="assets/img/gallery/gallery-6.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-7.jpg">
+                  <img
+                    src="assets/img/gallery/gallery-7.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-8.jpg">
+                  <img
+                    src="assets/img/gallery/gallery-8.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact">
+        <div class="container max-width-container">
+        </div>
+        <div class="container mt-5 max-width-container">
+          <div class="info-wrap">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+                <i class="bi bi-clock"></i>
+                <h4>Open Hours:</h4>
+                <p>Monday-Thursday:<br />12:00 AM - 23:00 PM</p>
+                <p>Friday-Sunday:<br />12:00 AM - 00:00 PM</p>
+              </div>
+
+              <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>foodiegoodie@example.com</p>
+              </div>
+
+              <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>(+91 ----------)</p>
+              </div>
+            </div>
+          </div>
+
+          <form role="form" class="email-form">
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  id="name"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input
+                  type="email"
+                  class="form-control"
+                  name="email"
+                  id="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <input
+                type="text"
+                class="form-control"
+                name="subject"
+                id="subject"
+                placeholder="Subject"
+                required
+              />
+            </div>
+            <div class="form-group mt-3">
+              <textarea
+                class="form-control"
+                name="message"
+                rows="5"
+                placeholder="Message"
+                required
+              ></textarea>
+            </div>
+            <div class="my-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">
+                Your message has been sent. Thank you!
+              </div>
+            </div>
+            <div class="text-center">
+              <button type="reset">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="container">
+        <h3>Foodie Goodie</h3>
+        <p>
+          Foodie Goodie is specialized in Pasta with Risotto, Salads &
+          Roti.
+        </p>
+        <div class="copyright">
+          &copy; Copyright Jay
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
